@@ -1,0 +1,22 @@
+{
+  "name": "loterias",
+  "version": "1.0.0",
+  "description": "Consultar premios lotería navidad",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "prebuild": "rmdir /q /s dist",
+    "build": "parcel build --no-source-maps --public-url ./ src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
