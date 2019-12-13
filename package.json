@@ -9,6 +9,10 @@
     "build": "parcel build --no-source-maps --public-url ./ src/index.js"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertio4/loterias.git"
+  },
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
